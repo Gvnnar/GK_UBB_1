@@ -38,12 +38,12 @@
     
     
      function draw() {
-    graphics.clearRect(0, 0, 600, 600); // Clear the canvas
+    graphics.clearRect(0, 0, 600, 600); 
 
-    // Set the fill color to purple
-    graphics.fillStyle = "#800080"; // Hex color code for purple
+    
+    graphics.fillStyle = "#800080"; // purple
 
-    // Draw a triangle
+    
     var triangleX1 = 300;
     var triangleY1 = 450;
     var triangleX2 = 400;
@@ -52,7 +52,7 @@
     var triangleY3 = 300;
     graphics.fillPoly(triangleX1, triangleY1, triangleX2, triangleY2, triangleX3, triangleY3);
 
-    // Draw a trapezoid
+    
     var trapezoidX1 = 250;
     var trapezoidY1 = 250;
     var trapezoidX2 = 350;
@@ -66,12 +66,12 @@
     graphics.fillStyle = 'black'; 
     graphics.fillRect(200, 300, 200, 2);
 
-    // Draw the eyes
+    
     graphics.fillStyle = 'white';  // Eye color
     graphics.fillCircle(250, 280, 15);
     graphics.fillCircle(350, 280, 15);
 
-    // Draw the pupils
+    
     graphics.fillStyle = 'black';  // Pupil color
     graphics.fillCircle(250, 280, 7);
     graphics.fillCircle(350, 280, 7);
